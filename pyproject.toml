@@ -45,7 +45,7 @@ docs = [
     "mkdocstrings-python",
     "mkdocs-gen-files",
     "mkdocs-literate-nav",
-    "griffe-fieldz @ git+https://github.com/pyapp-kit/griffe-fieldz",
+    "griffe-fieldz",
 ]
 dev = [
     "ipython",

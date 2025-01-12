@@ -7,7 +7,7 @@ class Thing:
 
     Parameters
     ----------
-    x : str
+    x : int
         some integer
     """
 
