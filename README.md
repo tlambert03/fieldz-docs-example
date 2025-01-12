@@ -1,6 +1,6 @@
 # fieldz-docs-example
 
-Example repo showing griffe-fieldz with mkdocs
+Example repo showing [griffe-fieldz](https://github.com/pyapp-kit/griffe-fieldz) with mkdocs
 
 ```python
 pip install -e .[docs]
