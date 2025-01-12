@@ -6,6 +6,8 @@ build-backend = "hatchling.build"
 # https://hatch.pypa.io/latest/config/metadata/
 [tool.hatch.version]
 source = "vcs"
+[tool.hatch.metadata]
+allow-direct-references = true
 
 # read more about configuring hatch at:
 # https://hatch.pypa.io/latest/config/build/
@@ -38,6 +40,14 @@ dependencies = []
 # https://peps.python.org/pep-0621/#dependencies-optional-dependencies
 [project.optional-dependencies]
 test = ["pytest", "pytest-cov"]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings-python",
+    "mkdocs-gen-files",
+    "mkdocs-literate-nav",
+    "griffe-fieldz @ git+https://github.com/pyapp-kit/griffe-fieldz",
+]
 dev = [
     "ipython",
     "mypy",

@@ -7,3 +7,8 @@
 [![codecov](https://codecov.io/gh/tlambert03/fieldz-docs-example/branch/main/graph/badge.svg)](https://codecov.io/gh/tlambert03/fieldz-docs-example)
 
 Example repo showing griffe-fieldz with mkdocs
+
+```python
+pip install -e .[docs]
+mkdocs serve
+```
